@@ -5,12 +5,12 @@ license = "AGPL-3.0"
 repository = "https://github.com/emerentius/sudoku"
 documentation = "https://docs.rs/sudoku"
 readme = "readme.md"
-version = "0.7.0"
+version = "0.7.1"
 authors = ["Emerentius"]
 edition = "2018"
 
 [dependencies]
-rand = "0.7.3"
+rand = "0.8.4"
 serde = { version = "1.0.80", optional = true }
 crunchy = "0.2.1"
 thiserror = "1.0.21"
